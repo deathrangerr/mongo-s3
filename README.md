@@ -1,8 +1,8 @@
 # mongo-s3
 
 ------------pre-reqisite----------------
-->install awscli
-->configure aws cli with iam rule having s3 access
+# ->install awscli
+# ->configure aws cli with iam rule having s3 access
 
 
 #########################################
