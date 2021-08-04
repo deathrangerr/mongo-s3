@@ -27,16 +27,6 @@
    27  sh backup.sh 
    28  aws configure
    29  sh backup.sh 
-   30  git init
-   31  git login
-   32  'git push
-   33  git push
-   34  git -m commit "added"
-   35  git -a -m commit "added"
-   36  git commit "added"
-   37  git add .
-   38  git push
-   39  vim backup.sh 
    40  ls
    41  aws s3 cp s3://mys3bucket-turiabooks/mongodb-backups/mongodb--2021-08-03-0847.tar /home/ubuntu/
    42  cd ..
@@ -53,7 +43,3 @@
    53  mongorestore --drop --host localhost --db test /home/ubuntu/mongodb--2021-08-03-0847/
    54  mongorestore --drop --host localhost --db test /home/ubuntu/mongodb--2021-08-03-0847/migration/
    55  mongosh
-   56  history | grep mongo
-   57  ls
-   58  touch history
-   59  history >> /home/ubuntu/history 
