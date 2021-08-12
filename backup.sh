@@ -3,8 +3,8 @@
 #Force file syncronization and lock writes
 mongo admin --eval "printjson(db.fsyncLock())"
 
-/usr/bin/mongodump -h $HOST -d $DBNAME -o $DEST --PASSWORD $PASSWORD --USERNAME $USERNAME
-#MONGODUMP_PATH="/usr/bin/mongodump"
+#/usr/bin/mongodump -h $HOST -d $DBNAME -o $DEST --PASSWORD $PASSWORD --USERNAME $USERNAME
+MONGODUMP_PATH="/usr/bin/mongodump"
 MONGO_DATABASE="migration" #replace with your database name
 
 TIMESTAMP=`date +%F-%H%M`
