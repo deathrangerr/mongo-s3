@@ -22,6 +22,7 @@ https://stackoverflow.com/questions/8866041/how-can-i-list-all-collections-in-th
 https://gist.github.com/eladnava/96bd9771cd2e01fb4427230563991c8d
 
 https://stackoverflow.com/questions/37902942/mongodb-connection-refused
+http://ianlondon.github.io/blog/mongodb-auth/
 
 
 
